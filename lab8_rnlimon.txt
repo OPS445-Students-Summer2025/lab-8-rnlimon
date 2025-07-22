@@ -11,9 +11,9 @@ TASK [Ensure EPEL repository is installed] *************************************
 ok: [rnlimon]
 
 TASK [Remove 'tree' package if installed] **************************************
-ok: [rnlimon]
+changed: [rnlimon]
 
-TASK [Set hostname to your Seneca ID] ******************************************
+TASK [Set hostname to Seneca ID] ***********************************************
 ok: [rnlimon]
 
 TASK [Create user with sudo access] ********************************************
@@ -33,5 +33,5 @@ ok: [rnlimon] => (item=lab7)
 ok: [rnlimon] => (item=lab8)
 
 PLAY RECAP *********************************************************************
-rnlimon                    : ok=8    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+rnlimon                    : ok=8    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 
