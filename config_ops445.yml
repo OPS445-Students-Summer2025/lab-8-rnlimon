@@ -24,7 +24,7 @@
         name: tree
         state: absent
 
-    - name: Set hostname to your Seneca ID
+    - name: Set hostname to Seneca ID
       hostname:
         name: "{{ seneca_id }}"
 
