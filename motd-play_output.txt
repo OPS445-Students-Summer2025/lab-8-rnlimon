@@ -1,0 +1,12 @@
+
+PLAY [update motd file] ********************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [rnlimon]
+
+TASK [setup a MOTD] ************************************************************
+ok: [rnlimon]
+
+PLAY RECAP *********************************************************************
+rnlimon                    : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
