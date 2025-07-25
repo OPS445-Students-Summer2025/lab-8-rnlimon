@@ -1,0 +1,15 @@
+
+PLAY [rnlimon] *****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [rnlimon]
+
+TASK [install apache] **********************************************************
+ok: [rnlimon]
+
+TASK [restart apache] **********************************************************
+changed: [rnlimon]
+
+PLAY RECAP *********************************************************************
+rnlimon                    : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
